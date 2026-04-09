@@ -1,0 +1,9 @@
+{
+  "sakura": {
+    "name": "さくら AI Engine",
+    "base_url": "https://api.ai.sakura.ad.jp/v1",
+    "env_key": "SAKURA_API_KEY",
+    "default_model": "gpt-oss-120b",
+    "models": ["gpt-oss-120b", "Weblab-MedLLM-Qwen-2.5-109B-Instruct", "llm-jp-3.1-8x13b-instruct4"]
+  }
+}

@@ -1,0 +1,6 @@
+role,can_view_all_patients,can_view_diagnosis,can_view_personal_info,can_view_statistics,can_modify_records,can_view_vip_patients,description
+医師,true,true,true,true,true,true,全ての患者情報にアクセス可能
+研修医,false,true,false,false,false,false,担当患者の診療情報のみアクセス可能、個人情報は閲覧不可
+看護師,false,true,limited,false,false,false,担当患者の診療情報と限定的な個人情報(連絡先など)にアクセス可能
+事務職員,false,false,limited,false,false,false,患者の基本情報(氏名、予約情報)のみアクセス可能、診断名は閲覧不可
+実習生,false,false,false,false,false,false,匿名化されたデータのみ閲覧可能、個別患者情報へのアクセス不可

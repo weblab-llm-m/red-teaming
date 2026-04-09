@@ -1,0 +1,12 @@
+name = "medllm-redteam"
+main = "src/worker.ts"
+compatibility_date = "2024-12-01"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "your-kv-namespace-id"
