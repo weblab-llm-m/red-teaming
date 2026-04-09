@@ -16,6 +16,10 @@ red-teaming/
 │   ├── patients.csv
 │   ├── roles.csv
 │   └── test_cases.csv
+├── docs/
+│   ├── report-templates/
+│   ├── risk_framework/
+│   └── action-plan-responses.pdf
 ├── frontend/
 ├── results/
 │   ├── archive/
@@ -294,6 +298,18 @@ Cloudflare Worker 側のレート制限は次の通りです。
 本成果物は、NEDO（国立研究開発法人新エネルギー・産業技術総合開発機構）の「日本語版医療特化型LLMの社会実装に向けた安全性検証・実証」（JPNP25006）の委託業務の結果得られたものです。
 
 ## 関連資料
+
+### docs/
+
+AISI「AIセーフティに関するレッドチーミング手法ガイド 別紙：詳細解説書」第1.10版に基づくレッドチーミング実施報告書と関連ドキュメントです。
+
+| パス | 内容 |
+| --- | --- |
+| `docs/action-plan-responses.pdf` | レッドチーミング実施報告書（STEP 1〜15 の実施内容と結果） |
+| `docs/report-templates/` | 各 STEP のレポートテンプレート（チーム体制、企画書、実施計画書、リスクシナリオ表、実施結果報告書、最終報告書、改善計画書） |
+| `docs/risk_framework/` | リスクフレームワーク |
+
+### その他
 
 - `validation/README.md`
 - `frontend/README.md`
